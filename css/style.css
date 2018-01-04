@@ -99,11 +99,12 @@ header .search-area ul li {
 /*-----------TOP AREA ----------*/
 #top-area {
     padding: 200px 15px 90px 15px;
-    background: url(https://i2.wp.com/artbecomesyou.com/wp-content/uploads/2014/04/taraji7.jpg?resize=800%2C556) no-repeat center center fixed; 
+    background: url(https://i2.wp.com/artbecomesyou.com/wp-content/uploads/2014/04/taraji7.jpg?) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
 }
 #top-area .profile-info .user-img {
     padding: 10px;
